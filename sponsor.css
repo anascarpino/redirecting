@@ -1,0 +1,128 @@
+body {
+	background-image: url("layer.png");
+}
+
+body > * {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	font-family: Arial;
+}
+
+/* Header */
+
+header {
+	height: 120px;
+}
+
+#easylookLogo {
+	width: 280px;
+	height: 80px;
+	position: relative;
+	top: 30px;
+}
+
+#sponsorLogo {
+	width: 150px;
+	height: 50px;
+	position: relative;
+	top: -40px;
+	left: 70px;
+}
+
+/* Main Parabéns! */
+
+main > h1{
+	color: white;
+	font-size: 45px;
+	font-weight: normal;
+	font-family: 'Lato';
+}
+
+main > p{
+	color: rgb(234, 221, 221);
+	font-size: 18px;	
+	text-align: justify;
+	font-family: 'LatoLight';
+}
+
+form {
+	width: 496px;
+	height: 46px;
+	border: 2px solid #ff9726;
+	margin-top: 50px;
+}
+
+form > input {
+	width: 246px;
+	height: 46px;
+	float: left;
+	background-color: transparent;
+	border: 0px;
+	padding: 0px;
+	color: white;
+	font-family: 'LatoLight';
+	text-indent: 10px;
+	font-size: 15px;
+}
+
+input:focus {
+	outline: none;
+}
+
+::-webkit-input-placeholder { color: white; }
+::-moz-placeholder { color: white; } /* firefox 19+ */
+:-ms-input-placeholder { color: white; } /* ie */
+input:-moz-placeholder { color: white; }
+
+form > button {
+	width: 250px;
+	height: 46px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	background-color: #ff9726;
+	border: 0px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Lato';
+}
+
+/* Main Pronto! */
+
+footer > h1{
+	color: white;
+	font-size: 45px;
+	font-weight: normal;
+	font-family: 'Lato';
+}
+
+footer > p{
+	color: rgb(234, 221, 221);
+	font-size: 18px;
+	text-align: justify;
+	font-family: 'LatoLight';
+}
+
+#qrcode {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	left: 40px;
+}
+
+#googleBtn {
+	width: 180px;
+	height: 60px;
+	position: relative;
+	bottom: 100px;
+	left: 95px;
+}
+
+#appleBtn {
+	width: 180px;
+	height: 60px;
+	position: relative;
+	bottom: 80px;
+	left: 280px;
+}
